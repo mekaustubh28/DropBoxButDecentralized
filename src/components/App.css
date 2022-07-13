@@ -1,0 +1,48 @@
+/* Styles go here */
+body {
+    background-color: whitesmoke;
+}
+
+a.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #000 !important;
+}
+
+a.account {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a.account:hover {
+    text-decoration: underline;
+}
+
+button.login,
+button.logout {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+li.list {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+div.fileContent {
+    width: 95vw;
+    overflow-x: hidden;
+}
+
+a.noURL {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.URL {
+    color: blue;
+    text-decoration: none;
+}

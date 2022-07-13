@@ -1,0 +1,116 @@
+{
+  "contractName": "Meme",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Meme.sol\":\"Meme\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Meme.sol\":{\"keccak256\":\"0x7708006ec770b0e8db0a107c8451cedf13c468fc2f0e3eedd9abd10fd341420c\",\"urls\":[\"bzz-raw://b561be90115b31e39d9f679d0a01428bcc8cd07d2e7b79ad9b3169092f8d8108\",\"dweb:/ipfs/QmNn6ZNjrFKrrn7g2LsxhvwNwLEiQJY4rZRbjTLar4HTQb\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820c28fc1fb1de64f47cadd50efe2ed5d77413dd3069498424572f8eeca63d38fd664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820c28fc1fb1de64f47cadd50efe2ed5d77413dd3069498424572f8eeca63d38fd664736f6c63430005100032",
+  "sourceMap": "27:45:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:45:0;;;;;;;",
+  "deployedSourceMap": "27:45:0:-;;;;;",
+  "source": "pragma solidity > 0.5.15;\n\ncontract Meme{\n    // whats up bitch yeaa!!\n}",
+  "sourcePath": "/home/kautubh/personal/dapp/meme/src/contracts/Meme.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/Meme.sol",
+    "exportedSymbols": {
+      "Meme": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">",
+          "0.5",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Meme",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "27:45:0"
+      }
+    ],
+    "src": "0:72:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/src/contracts/Meme.sol",
+      "exportedSymbols": {
+        "Meme": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">",
+            "0.5",
+            ".15"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:25:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "Meme",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "27:45:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "0:72:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-07-10T08:19:49.070Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
